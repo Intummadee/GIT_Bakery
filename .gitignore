@@ -1,0 +1,32 @@
+# Python (.venv, cache, compiled files)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Flask specific
+instance/
+.env
+*.env
+
+# Log files
+*.log
+
+# Frontend (Vue)
+node_modules/
+dist/
+public/assets/
+
+# Editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git specific
+*.swp
+*.swo
