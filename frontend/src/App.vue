@@ -1,8 +1,10 @@
 <template>
   <div>
     <h1>FastAPI + Vue</h1>
-    <button @click="fetchData">Get Data from API</button>
     <p>{{ message }}</p>
+    <type-menu />
+    
+    <button @click="fetchData">Get Data from API Fameee</button>
   </div>
 </template>
 
@@ -10,6 +12,7 @@
 import { ref } from 'vue'
 
 export default {
+
   setup() {
     const message = ref("")
 
