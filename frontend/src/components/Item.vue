@@ -1,6 +1,9 @@
 <template>
-    <div class="bg-lime-600 w-[5rem] ml-9 h-[3rem] z-50 text-center content-center -translate-y-6">
-      <h1>{{ nameBaker  }}</h1>
+    <div class="bg-white w-[6rem] ml-9 h-[5rem] z-50 drop-shadow-lg rounded-lg text-center -translate-y-6">
+      <div class="w-full  justify-items-center	">
+        <img src="../assets/img-2.jpg" class="w-[3rem] h-[3rem] ">
+      </div>
+      <h1 class="text-black text-base font-bold	">{{ nameBaker }}</h1>
       
     </div>
   </template>

@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <div class="bg-pink-200 h-15 relative flex justify-evenly w-full ">
+    <div class="bg-white h-15 relative flex justify-evenly w-full ">
       <Item nameBaker="สโคน" />     
       <Item nameBaker="โฮลวีต" />
       <Item nameBaker="ครัวซองต์" />
@@ -31,8 +31,18 @@
     </div>
 
     
-    <div class="bg-blue-400 h-[10rem]">
-      <p>message</p>
+    <div class="bg-blue-400 flex justify-around h-auto py-12">
+      <div class="flex-col w-1/4">
+        <p class="text-[13px]">Discover</p>
+        <p class="text-2xl">About</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt harum a esse aliquid molestiae voluptatibus illo suscipit, velit recusandae unde omnis inventore quisquam quod architecto aut sequi error est. Perferendis.</p>
+      </div>
+
+      <div class="w-1/4 grid grid-rows-3 grid-flow-col gap-4 ">
+          <img class="row-start-2 row-span-3 col-span-2 " src="../assets/img-3.jpg" />
+          <img class="row-span-2 col-span-2 " src="../assets/img-4.jpg" />
+          <img class="row-span-2 col-span-2" src="../assets/img-5.jpeg" />
+      </div>
       
 
     </div>
