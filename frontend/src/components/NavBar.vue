@@ -9,9 +9,7 @@
         
     </div>
 
-    <main>
-        <RouterView />
-    </main>
+    
   </div>
 
 

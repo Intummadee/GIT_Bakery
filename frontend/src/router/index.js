@@ -1,6 +1,7 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router';
-import Home from '../App.vue';
+import App from '../App.vue';
+import Home from '../components/Home.vue';
 import Menu from '../components/Menu.vue';
 
 const routes = [
