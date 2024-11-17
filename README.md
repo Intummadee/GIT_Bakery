@@ -5,15 +5,17 @@
 
 mkdir backend && cd backend
 python -m venv env
-env\Scripts\activate     # สำหรับ Windows
+env\Scripts\activate     # สำหรับ Window
 pip install fastapi uvicorn python-dotenv
 
-รัน uvicorn main:app --reload
+รัน uvicorn main:app --reload (ก่อนรัน ต้อง active env ก่อน)
 
-อยากดู DOC --> http://127.0.0.1:8000/docs
+อยากดู1 DOC --> http://127.0.0.1:8000/docs
 Guide FastAPI --> https://fastapi.tiangolo.com/tutorial/
 
 
 mkdir frontend && cd frontend
 npm create vite@latest .
 npm install
+
+

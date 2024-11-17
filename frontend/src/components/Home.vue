@@ -31,14 +31,16 @@
     </div>
 
     
-    <div class="bg-blue-400 flex justify-around h-auto py-12">
-      <div class="flex-col w-1/4">
+    <div class=" bg-lightBg flex justify-evenly h-auto py-12">
+      <div class="flex-col w-1/4 ">
         <p class="text-[13px]">Discover</p>
         <p class="text-2xl">About</p>
+        <hr />
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt harum a esse aliquid molestiae voluptatibus illo suscipit, velit recusandae unde omnis inventore quisquam quod architecto aut sequi error est. Perferendis.</p>
       </div>
 
       <div class="w-1/4 grid grid-rows-3 grid-flow-col gap-4 ">
+          
           <img class="row-start-2 row-span-3 col-span-2 " src="../assets/img-3.jpg" />
           <img class="row-span-2 col-span-2 " src="../assets/img-4.jpg" />
           <img class="row-span-2 col-span-2" src="../assets/img-5.jpeg" />
